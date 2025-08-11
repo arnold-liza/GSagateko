@@ -92,16 +92,8 @@ body {
   overflow: hidden;
 }
 
-.hero-bg {
-  background-image: url('sky.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+.
 
-.hero-overlay {
-  background: linear-gradient(135deg, rgba(13, 110, 253, 0.8) 0%, rgba(33, 37, 41, 0.6) 100%);
-}
 
 .hero-title {
   animation: fadeInUp 1s ease-out;
