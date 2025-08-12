@@ -104,7 +104,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-@keyframes changeBg {
+@keyframes changebg {
   0%   { background-image: url('agateko.png'); }
   33%  { background-image: url('event.jpg'); }
   66%  { background-image: url('primary.jpg'); }
