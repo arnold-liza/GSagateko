@@ -92,7 +92,24 @@ body {
   overflow: hidden;
 }
 
-.
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  animation: changeBg 15s infinite;
+  background-size: cover;
+  background-position: center;
+}
+@keyframes changeBg {
+  0%   { background-image: url('agateko.png'); }
+  33%  { background-image: url('event.jpg'); }
+  66%  { background-image: url('primary.jpg'); }
+  100% { background-image: url('logo.jpg'); }
+}
 
 
 .hero-title {
